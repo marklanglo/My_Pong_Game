@@ -1,0 +1,42 @@
+Depending on your operating system the Commands will be slightly different:
+
+Before Starting: Install Python 3.0 or later onto your system or the
+program will not run.
+
+For Linux Systems:
+Summary: Open a python virtual environment, download the requirements
+and run the game with the command './pg.py'
+
+    1) Open the 'Terminal'
+    2) Go to the destination folder using the command:
+        'cd directoryName'
+    3) Create a python virtual environment with the command:
+        'python3 -m venv env'
+    4) Start the python virtual environment with the command:
+        'source env/bin/activate'
+    5) Install requirements using command:
+        'pip install -r requirements.txt'
+    6) Run the command:
+        './pg.py'
+
+    If you want to exit the python virtual environment, simply use the
+    command 'deactivate'.  You can also just close the terminal.
+
+For Windows Systems:
+Summary: Open a python virtual environment, download the requirements
+and run the game with the command 'python pg.py'
+
+    1) Open the 'Command Prompt'
+    2) Go to the destination folder using the command:
+        'cd directoryName'
+    3) Create a python virtual environment with the command:
+        'python3 -m venv env'
+    4) Start the python virtual environment with the command:
+        'env\Scripts\activate.bat'
+    5) Install requirements using command:
+        'pip install -r requirements.txt'
+    6) Run the command:
+        'python pg.py'
+
+    If you want to exit the python virtual environment, simply use the
+    command 'deactivate'.  You can also just close the terminal.
